@@ -3,7 +3,7 @@
 
 """
 How I run this:
-    python realtime_app.py --weights runs/best_model.pth --img-size 160 --device auto --camera 0
+    python realtime-app.py --weights runs/best_model.pth --img-size 160 --device auto --camera 0
 Keys I use while running:
     Q/ESC = quit | R = toggle ROI | C = clear smoothing | D = toggle debug top-2
     G = print full probs for current frame | S = save current frame to ./captures
